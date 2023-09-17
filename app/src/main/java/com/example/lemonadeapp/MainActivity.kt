@@ -150,7 +150,7 @@ fun LemonadeTextAndImage(
             verticalArrangement = Arrangement.Center,
             modifier = Modifier.fillMaxSize()
         ) {
-            Text(text = "Laura Daniela Jaimes Cárdenas", fontSize = 10.sp )
+            Text(text = "Laura Daniela Jaimes Cárdenas 2040430", fontSize = 10.sp )
             Spacer(modifier = Modifier.padding(10.dp))
             Button(
                 onClick = onImageClick,
