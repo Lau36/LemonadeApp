@@ -44,7 +44,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             LemonadeAppTheme{
-
+                LemonadeApp()
             }
         }
     }
@@ -150,7 +150,7 @@ fun LemonadeTextAndImage(
             verticalArrangement = Arrangement.Center,
             modifier = Modifier.fillMaxSize()
         ) {
-            Text(text = "By Laura Daniela Jaimes Cárdenas", fontSize = 10.sp )
+            Text(text = "Laura Daniela Jaimes Cárdenas", fontSize = 10.sp )
             Spacer(modifier = Modifier.padding(10.dp))
             Button(
                 onClick = onImageClick,
@@ -179,6 +179,6 @@ fun LemonadeTextAndImage(
 @Composable
 fun LemonadeAppPreview() {
     LemonadeAppTheme{
-
+        LemonadeApp()
     }
 }
